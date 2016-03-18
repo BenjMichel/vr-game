@@ -9,7 +9,7 @@ var initDeviceOrientationWatcher = function(callback) {
       var tiltFB = eventData.beta  / 180 * Math.PI;
 
       // alpha is the compass direction the device is facing in degrees
-      var dir = eventData.alpha / 180 * Math.PI;
+      var dir = eventData.alpha / 180 * Math.PI - Math.PI;
 
       // call our orientation event handler
       callback(tiltLR, tiltFB, dir);

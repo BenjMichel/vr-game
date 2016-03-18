@@ -10,11 +10,13 @@ object = new THREE.AxisHelper( 50 );
 object.position.set( 0, 0, 0 );
 scene.add( object );
 
+camera.position.x = -5;
+camera.position.y = -5;
 camera.position.z = 5;
 var updateCamera = function(tiltLR, tiltFB, dir) {
   camera.rotation.x = tiltFB;
-  camera.rotation.y = tiltLR
-  // camera.rotation.z = dir;
+  camera.rotation.y = tiltLR;
+  camera.rotation.z = dir;
 }
 
 var render = function () {
