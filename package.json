@@ -28,7 +28,8 @@
   },
   "devDependencies": {
     "eslint": "^2.2.0",
-    "eslint-config-airbnb": "^6.0.2"
+    "eslint-config-airbnb": "^6.0.2",
+    "webpack": "^1.12.14"
   },
   "repository": {
     "type": "git",
