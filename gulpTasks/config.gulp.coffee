@@ -10,7 +10,7 @@ config =
     src: "#{srcPath}/index.html"
     dest: "#{wwwPath}"
   app:
-    src: ["#{srcPath}/main.js", "#{srcPath}/**/*.module.js", "#{srcPath}/**/*.js"]
+    src: ["#{srcPath}/app.js"]
     concatFile: "app.js"
     dest: "#{wwwPath}/js"
   style:

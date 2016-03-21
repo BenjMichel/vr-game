@@ -18,3 +18,5 @@ var initDeviceOrientationWatcher = function(callback) {
     document.getElementById("doEvent").innerHTML = "Not supported."
   }
 }
+
+module.exports.initDeviceOrientationWatcher = initDeviceOrientationWatcher;
